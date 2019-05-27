@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails',          '5.1.6'
+gem 'rails',          '5.2.2'
 gem 'bcrypt',         '3.1.12'
 gem "bootstrap-sass", ">= 3.4.1"
 gem 'puma',           '3.9.1'
@@ -21,6 +21,8 @@ group :development do
   gem 'listen',                '3.1.5'
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
+  gem "better_errors"
+  gem "binding_of_caller"
 end
 
 group :test do
